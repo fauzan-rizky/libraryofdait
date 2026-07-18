@@ -1,4 +1,5 @@
 <div id="navbar">
+    <a href="./" id="logo-link">
     <svg
         id="logo"
         viewBox="0 0 554 83"
@@ -49,9 +50,12 @@
             </filter>
         </defs>
     </svg>
-
-    <a class="links" href="./"><h2>Belajar</h2></a>
+</a>
+    <a class="links" href="./belajar"><h2>Belajar</h2></a>
     <a class="links" href="./"><h2>Tentang</h2></a>
+</div>
+<div class="navbar-spacer">
+
 </div>
 
 <style>
@@ -65,7 +69,7 @@
         text-decoration: none;
 
         font-family: "Jersey 25", sans-serif;
-        font-style:normal;
+        font-style: normal;
 
         padding: 0;
     }
@@ -73,19 +77,35 @@
     h2 {
         font-weight: 100;
     }
+
+    /* Berikan aturan flex dan height ke pembungkus logo agar rata tengah vertikal tetap bekerja */
+    #logo-link {
+        height: 100%;
+        display: flex;
+        align-items: center;
+    }
+
+    /* Biarkan ukuran SVG mengikut tinggi si a pembungkusnya */
     #logo {
         background-color: transparent;
         height: 100%;
+        width: auto; /* Agar rasionya tidak gepeng */
     }
 
     #navbar {
         background-color: white;
         display: flex;
         align-items: center;
+        border-bottom: 1px solid black;
 
         padding: 5px 0 0 5px;
         position: fixed;
         width: 100vw;
         height: 6vh;
+    }
+
+    .navbar-spacer {
+        height: 6vh;
+        width: 100vw;
     }
 </style>

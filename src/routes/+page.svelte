@@ -87,6 +87,8 @@
     #home {
         background: url("../images/cpbg.jpg");
         background-size: cover;
+        align-items: center;
+        justify-content: center;
     }
 
     @keyframes blink {
