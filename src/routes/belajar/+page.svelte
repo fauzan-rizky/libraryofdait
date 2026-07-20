@@ -7,7 +7,7 @@
     <div class="category">
         <h3>Perkenalan dan setup</h3>
         <div class="categorySlider">
-            <a href="./belajar">
+            <a href="/belajar/pengantar-ikti/pengenalan">
                 <div class="categoryEntry">
                     <div class="classUpper">
                         <h6 class="classTitle">Pengantar IK/TI</h6>

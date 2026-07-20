@@ -1,5 +1,5 @@
 <div id="navbar">
-    <a href="./" id="logo-link">
+    <a href="/" id="logo-link">
     <svg
         id="logo"
         viewBox="0 0 554 83"
@@ -51,8 +51,8 @@
         </defs>
     </svg>
 </a>
-    <a class="links" href="./belajar"><h2>Belajar</h2></a>
-    <a class="links" href="./"><h2>Tentang</h2></a>
+    <a class="links" href="/belajar"><h2>Belajar</h2></a>
+    <a class="links" href="/"><h2>Tentang</h2></a>
 </div>
 <div class="navbar-spacer">
 
