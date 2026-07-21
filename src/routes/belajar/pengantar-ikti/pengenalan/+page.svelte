@@ -1,62 +1,61 @@
 <script>
-    import Navbar from "../../../../components/navbar.svelte";
-    import SidebarIkti from "../sidebar-ikti.svelte";
-    import "../../../../styles/materials.css";
     import computerscience from "../../../../images/learning/pengantar-ikti/computerscience.webp";
 </script>
 
-<Navbar />
-<div class="materialEntry">
-    <SidebarIkti />
-
     <div class="material">
-        <h3 id="materi-1" class="materi-title">Pengenalan</h3>
-        <div class="images">
-            <img
-                src={computerscience}
-                alt="Ilmu Komputer dan Teknik Informatika"
-            />
-            <p class="image-description">
-                *ilustrasi ilmu komputer <a 
-                    href="https://www.google.com/url?sa=t&source=web&rct=j&url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DCxGSnA-RTsA&ved=0CBYQjRxqFwoTCODW453P4JUDFQAAAAAdAAAAABA4&opi=89978449"
-                    >(sumber)</a
+        <div id="materi-1">
+            <h3 class="materi-title">Pengenalan</h3>
+            <div class="images">
+                <img
+                    src={computerscience}
+                    alt="Ilmu Komputer dan Teknik Informatika"
+                />
+                <p class="image-description">
+                    *ilustrasi ilmu komputer <a 
+                        href="https://www.google.com/url?sa=t&source=web&rct=j&url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DCxGSnA-RTsA&ved=0CBYQjRxqFwoTCODW453P4JUDFQAAAAAdAAAAABA4&opi=89978449"
+                        >(sumber)</a
+                    >
+                </p>
+            </div>
+        </div>
+
+        <div id="sub-1">
+            <h3>
+                Apa itu Ilmu Komputer dan Teknik Informatika?
+            </h3>
+            <p>
+                Ilmu Komputer dan Teknik Informatika adalah 2 jurusan atau prodi
+                kuliah yang sering berkaitan dan juga sering membuat kebingungan
+                banyak orang
+            </p>
+            <p>
+                Pada dasarnya Ilmu Komputer sendiri merupakan percabangan dari ilmu
+                Matematika, dimana kata
+                <span
+                    ><a
+                        href="https://dictionary.cambridge.org/dictionary/english/compute"
+                        ><i>Compute</i></a
+                    ></span
                 >
+                sendiri berarti "menghitung angka atau jumlah menggunakan metode matematika,
+                komputer, atau mesin lainnya"
+            </p>
+            <p>
+                Sedangkan Teknik Informatika lebih mengarah ke pendidikan serupa
+                namun dengan fokus terlebih terhadap ilmu praktek nya seperti <i
+                    >Software Engineering</i
+                > atau Rekayasa Perangkat Lunak, dan berbagai prospek bidang IT lainnya.
+            </p>
+            <p>
+                Namun keduanya mempunyai prospek karir yang sama yaitu di bidang
+                Teknologi Informasi, Ilmu Komputer lebih mengarah kepada teori,
+                sedangkan Teknik Informatika lebih mengarah ke praktek ataupun
+                vokasi-nya
             </p>
         </div>
 
-        <h3 id="materi-1-sub-1">
-            Apa itu Ilmu Komputer dan Teknik Informatika?
-        </h3>
-        <p>
-            Ilmu Komputer dan Teknik Informatika adalah 2 jurusan atau prodi
-            kuliah yang sering berkaitan dan juga sering membuat kebingungan
-            banyak orang
-        </p>
-        <p>
-            Pada dasarnya Ilmu Komputer sendiri merupakan percabangan dari ilmu
-            Matematika, dimana kata
-            <span
-                ><a
-                    href="https://dictionary.cambridge.org/dictionary/english/compute"
-                    ><i>Compute</i></a
-                ></span
-            >
-            sendiri berarti "menghitung angka atau jumlah menggunakan metode matematika,
-            komputer, atau mesin lainnya"
-        </p>
-        <p>
-            Sedangkan Teknik Informatika lebih mengarah ke pendidikan serupa
-            namun dengan fokus terlebih terhadap ilmu praktek nya seperti <i
-                >Software Engineering</i
-            > atau Rekayasa Perangkat Lunak, dan berbagai prospek bidang IT lainnya.
-        </p>
-        <p>
-            Namun keduanya mempunyai prospek karir yang sama yaitu di bidang
-            Teknologi Informasi, Ilmu Komputer lebih mengarah kepada teori,
-            sedangkan Teknik Informatika lebih mengarah ke praktek ataupun
-            vokasi-nya
-        </p>
-        <h3 id="materi-1-sub-2">Prospek bidang dan karir</h3>
+        <div id="sub-2">
+            <h3>Prospek bidang dan karir</h3>
         <p>
             Profesional di bidang IT memiliki banyak pilihan bidang dan karir
             untuk ditempuh
@@ -301,8 +300,8 @@
                 Scikit-learn, Keras, OpenCV, NLTK, Jupyter Notebook</b
             >
         </p>
+        </div>
     </div>
-</div>
 
 <style>
     * {

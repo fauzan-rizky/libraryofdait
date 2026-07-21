@@ -1,4 +1,12 @@
-.materialEntry {
+:root {
+    font-size: clamp(16px, 0.833vw, 32px);
+}
+
+a {
+    color: inherit;
+}
+
+.material-entry {
     background-color: white;
     color: black;
     width: 100vw;
@@ -9,8 +17,8 @@
 }
 
 .material {
-    width: 80vw;
-    padding: 15px;
+    width: min(80vw, 1536px);
+    padding: 0.938rem;
 }
 
 .images {
@@ -18,30 +26,47 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 10px 0 10px 0;
+    padding: 0.625rem 0;
     text-align: center;
 }
 
 .images .image-description {
     margin: 0;
-    margin-top: 10px;
+    margin-top: 0.625rem;
     text-align: center;
 }
 
 .images img {
     width: 50%;
+    max-width: 100%;
+    height: auto;
 }
 
-.materialEntry h3 {
-    margin-top: 15px;
+.material-entry h3 {
+    margin-top: 0.938rem;
 }
 
-.materialEntry p {
-    padding-left: 20px;
+.material-entry p {
+    padding-left: 1.25rem;
     width: 90%;
     text-align: justify;
+    margin-bottom: 1rem;
 }
 
 .materi-title {
     text-align: center;
+}
+
+@media (max-width: 768px) {
+    .material {
+        width: 100vw;
+    }
+
+    .material-entry p {
+        width: 95%;
+    }
+
+    .images img {
+        width: 90%;
+    }
 }

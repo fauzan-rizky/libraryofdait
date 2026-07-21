@@ -1,6 +1,5 @@
 <script>
     import Navbar from "../components/navbar.svelte";
-    import "../styles/global.css"
     import "../styles/text.css"
     import { onMount } from "svelte";
 
@@ -52,7 +51,7 @@
 </script>
 
 <Navbar />
-<div class="fullScreenContainer" id="home">
+<div class="full-screen-container" id="home">
     <h1 id="title">Library of DAIT</h1>
     <h2 id="subtitle">
         tempat belajar <span class="typing">{displayText}</span> berbahasa Indonesia

@@ -5,7 +5,11 @@
     scroll-behavior: smooth;
 }
 
-.fullScreenContainer {
+html {
+     scroll-padding-top: 6vh;
+}
+
+.full-screen-container {
     background-color: white;
     color: black;
     width: 100vw;

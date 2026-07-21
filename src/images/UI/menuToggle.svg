@@ -1,0 +1,10 @@
+<svg width="397" height="397" viewBox="0 0 397 397" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="menuToggle">
+<rect id="mt-frame" x="7.5" y="7.5" width="382" height="382" rx="7.5" fill="#D3D3D3" stroke="black" stroke-width="15"/>
+<rect id="mt-bottom" x="36" y="286" width="329" height="60" rx="25" fill="black"/>
+<rect id="mt-middle" x="32" y="169" width="329" height="59" rx="25" fill="black"/>
+<rect id="mt-x-left" x="101.041" y="61.3213" width="329" height="59" rx="25" transform="rotate(45 101.041 61.3213)" fill="black"/>
+<rect id="mt-x-right" x="333.679" y="103.041" width="329" height="59" rx="25" transform="rotate(135 333.679 103.041)" fill="black"/>
+<rect id="mt-top" x="32" y="51" width="329" height="60" rx="25" fill="black"/>
+</g>
+</svg>

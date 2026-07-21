@@ -3,21 +3,21 @@
 </script>
 
 <Navbar />
-<div id="belajarMenu" class="fullScreenContainer">
+<div id="belajarMenu" class="full-screen-container">
     <div class="category">
         <h3>Perkenalan dan setup</h3>
-        <div class="categorySlider">
+        <div class="category-slider">
             <a href="/belajar/pengantar-ikti/pengenalan">
-                <div class="categoryEntry">
-                    <div class="classUpper">
-                        <h6 class="classTitle">Pengantar IK/TI</h6>
-                        <p class="classDescription">
+                <div class="category-entry">
+                    <div class="class-upper">
+                        <h6 class="class-title">Pengantar IK/TI</h6>
+                        <p class="class-description">
                             Belajar tentang dasar dasar Ilmu Komputer dan (atau)
                             Teknik Informatika
                         </p>
                     </div>
-                    <div class="classLower">
-                        <p class="classDifficulty pemula">Level: Pemula</p>
+                    <div class="class-lower">
+                        <p class="class-difficulty pemula">Level: Pemula</p>
                     </div>
                 </div>
             </a>
@@ -32,21 +32,28 @@
         /* outline: 1px solid red; */
     }
 
-    a {
-        text-decoration: none;
+    #belajarMenu {
+        background-color: white;
+        color: black;
+        width: 100vw;
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+        padding: clamp(16px, 3vh, 48px) 15px 10px 15px;
     }
 
-    #belajarMenu {
-        padding: 10px 15px 10px 15px;
+    a {
+        color: inherit;
+        text-decoration: none;
     }
 
     .category {
         width: fit-content;
         height: fit-content;
-        margin-top: 0.5%;
+        margin-top: clamp(8px, 1.5vh, 24px);
     }
 
-    .categorySlider {
+    .category-slider {
         display: flex;
         width: fit-content;
         height: fit-content;
@@ -55,38 +62,55 @@
         margin-top: 15px;
     }
 
-    .categoryEntry {
+    .category-entry {
         border: 1px solid black;
         border-radius: 5px;
 
-        width: 30vh;
-        height: 30vh;
+        width: clamp(200px, 15vw, 400px);
+        height: clamp(200px, 15vw, 400px);
         display: flex;
         flex-direction: column;
         justify-content: space-between;
 
         position: relative;
-
-        
     }
 
-    .categoryEntry:hover {
+    @media (max-width: 768px) {
+        .category {
+            align-self: center;
+            width: 100%;
+        }
+
+        .category-slider {
+            flex-direction: column;
+            width: 100%;
+            gap: 1rem;
+        }
+
+        .category-entry {
+            width: 100%;
+            height: auto;
+            min-height: clamp(130px, 28vw, 180px);
+        }
+    }
+
+    .category-entry:hover {
         transform: translateX(5px) translateY(-5px);
         box-shadow: -5px 5px 0px black;
     }
 
-    .classUpper {
+    .class-upper {
         padding: 5%;
         width: 100%;
         height: 75%;
     }
 
-    .classLower {
+    .class-lower {
         width: 100%;
         height: 25%;
     }
 
-    .classDifficulty {
+    .class-difficulty {
         padding: 0% 5% 0% 5%;
         border-top: 1px solid black;
         border-bottom: 1px solid black;
@@ -94,5 +118,9 @@
 
     .pemula {
         background-color: rgb(16, 192, 16);
+    }
+
+    .class-title {
+        font-size: clamp(1.05rem, 2.8vw, 1.3rem);
     }
 </style>
