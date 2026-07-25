@@ -24,7 +24,7 @@
 {#if navMenuOpen}
     <div class="nav-overlay" onclick={() => navMenuOpen = false} role="presentation" onkeydown={(e) => e.key === 'Enter' && (navMenuOpen = false)}>
         <div class="nav-menu" onclick={(e) => e.stopPropagation()} role="none">
-            <a href="/" class="nav-menu-link" onclick={() => navMenuOpen = false}>Library of DAIT</a>
+            <a href="/" class="nav-menu-link" id="navbar-mobile-title" onclick={() => navMenuOpen = false}>Library of DAIT</a>
             <a href="/belajar" class="nav-menu-link" onclick={() => navMenuOpen = false}>Belajar</a>
             <a href="/" class="nav-menu-link" onclick={() => navMenuOpen = false}>Tentang</a>
         </div>
@@ -45,7 +45,7 @@
 </button>
 
 <style>
-    #navbar-title {
+    #navbar-title, #navbar-mobile-title {
         color: #00fff7;
         text-shadow: 3px -3px 0 #fe0ab9;
         font-weight: 100;

@@ -1,6 +1,6 @@
 <script>
     import Navbar from "../components/navbar.svelte";
-    import "../styles/text.css"
+    import "../styles/text.css";
     import { onMount } from "svelte";
 
     let displayText = $state("");
@@ -54,8 +54,15 @@
 <div class="full-screen-container" id="home">
     <h1 id="title">Library of DAIT</h1>
     <h2 id="subtitle">
-        tempat belajar <span class="typing">{displayText}</span> berbahasa Indonesia
+        tempat belajar <span class="typing">{displayText}</span> berbahasa
+        Indonesia
     </h2>
+    <div id="subtitle-mobile">
+        <h2 class="subtitle-mobile-text">
+            tempat belajar <span class="typing">{displayText}</span> 
+        </h2>
+        <h2 class="subtitle-mobile-text">berbahasa indonesia</h2>
+    </div>
 </div>
 
 <style>
@@ -73,9 +80,13 @@
     }
 
     #subtitle,
-    span {
+    #subtitle-mobile, span {
         color: #00fff7;
         text-shadow: 0px 0px 20px #fe0ab9;
+    }
+
+    #subtitle-mobile {
+        display: none;
     }
 
     span {
@@ -101,6 +112,26 @@
 
         100% {
             border-right: 5px solid #fe0ab9;
+        }
+    }
+
+    @media (max-width: 768px) {
+        #title {
+            font-size: clamp(2.5rem, 12vw, 3.5rem);
+        }
+
+        #subtitle {
+            display: none;
+        }
+
+        #subtitle-mobile {
+            width: 90%;
+            text-align: center;
+            display: block;
+        }
+
+        .subtitle-mobile-text {
+            font-size: clamp(1.8rem, 6vw, 2.75rem);
         }
     }
 </style>
