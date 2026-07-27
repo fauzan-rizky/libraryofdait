@@ -36,7 +36,13 @@ let sidebarSections = [
     {
         title: "Program Pertama",
         href: "/belajar/mulprog/progpel/#materi-1",
-        items: [],
+        items: [
+            { label: "Hello, world!", href: "/belajar/mulprog/progpel/#sub-1" },
+            { label: "Git", href: "/belajar/mulprog/progpel/#sub-2", children: [
+                { label: "Github CLI", href: "/belajar/mulprog/progpel/#sub-2-1" },
+            ] },
+            { label: "Repository Pertamamu", href: "/belajar/mulprog/progpel/#sub-3" },
+        ],
     },
 ];
 </script>

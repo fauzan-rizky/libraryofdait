@@ -47,6 +47,12 @@ a {
     max-width: 100%;
     height: auto;
     border: 3px solid #00fff7;
+    
+} 
+
+.images img:hover {
+    transform: translateX(5px) translateY(-5px);
+    box-shadow: -5px 5px #fe0ab9;
 }
 
 .images-tutorial img {
