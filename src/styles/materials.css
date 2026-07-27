@@ -28,6 +28,7 @@ a {
     align-items: center;
     padding: 0.625rem 0;
     text-align: center;
+    
 }
 
 .images .image-description {
@@ -36,10 +37,22 @@ a {
     text-align: center;
 }
 
+.images-tutorial {
+    align-items: flex-start;
+    padding-left: 2.5rem;
+}
+
 .images img {
     width: 50%;
     max-width: 100%;
     height: auto;
+    border: 3px solid #00fff7;
+}
+
+.images-tutorial img {
+    width: 50%;
+    max-width: 100%;
+    max-height: 500px;
 }
 
 .material-entry h3 {
@@ -69,4 +82,11 @@ a {
     .images img {
         width: 90%;
     }
+
+    .images-tutorial img {
+    width: 85%;
+    max-width: 100%;
+    max-height: 500px;
+}
+
 }

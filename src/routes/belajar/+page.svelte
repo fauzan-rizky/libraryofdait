@@ -5,21 +5,35 @@
 <Navbar />
 <div id="belajarMenu" class="full-screen-container">
     <div class="category">
-        <h3>Perkenalan dan setup</h3>
+        <h3>PERKENALAN DAN SETUP</h3>
         <div class="category-slider">
-            <a href="/belajar/pengantar-ikti/pengenalan">
+            <a class="entry-link" href="/belajar/pengantar-ikti/pengenalan">
                 <div class="category-entry">
                     <div class="class-upper">
                         <h6 class="class-title">Pengantar IK/TI</h6>
                         <p class="class-description">
-                            Belajar tentang dasar dasar Ilmu Komputer dan (atau)
-                            Teknik Informatika
+                            dasar dasar Ilmu Komputer (dan/atau) Teknik Informatika
                         </p>
                     </div>
                     <div class="class-lower">
                         <p class="class-difficulty pemula">Level: Pemula</p>
                     </div>
                 </div>
+                
+            </a>
+            <a class="entry-link" href="/belajar/mulprog/ddp">
+                <div class="category-entry">
+                    <div class="class-upper">
+                        <h6 class="class-title">Dasar pemrograman dan setup</h6>
+                        <p class="class-description">
+                            mulai ngoding membuat program pertamamu
+                        </p>
+                    </div>
+                    <div class="class-lower">
+                        <p class="class-difficulty pemula">Level: Pemula</p>
+                    </div>
+                </div>
+                
             </a>
         </div>
     </div>
@@ -60,6 +74,7 @@
         align-items: center;
 
         margin-top: 15px;
+        gap: 25px;
     }
 
     .category-entry {
@@ -92,6 +107,10 @@
             height: auto;
             min-height: clamp(130px, 28vw, 180px);
         }
+
+        .entry-link {
+            width: 100%;
+        }
     }
 
     .category-entry:hover {
@@ -102,18 +121,19 @@
     .class-upper {
         padding: 5%;
         width: 100%;
-        height: 75%;
+        display: flex;
+        flex-direction: column;
     }
 
     .class-lower {
         width: 100%;
-        height: 25%;
     }
 
     .class-difficulty {
         padding: 0% 5% 0% 5%;
         border-top: 1px solid black;
         border-bottom: 1px solid black;
+        margin-bottom: 0;
     }
 
     .pemula {
@@ -123,4 +143,8 @@
     .class-title {
         font-size: clamp(1.05rem, 2.8vw, 1.3rem);
     }
+
+    .class-description {
+    font-size: clamp(0.75rem, 2vw, 0.9rem);
+}
 </style>

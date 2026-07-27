@@ -1,4 +1,6 @@
 <script>
+    import { slide } from 'svelte/transition';
+
     let { sections = [], open = false, onClose = () => {} } = $props();
 
     $effect(() => {
@@ -9,6 +11,12 @@
             };
         }
     });
+
+    let expanded = $state({});
+
+    function toggleExpand(key) {
+        expanded[key] = !expanded[key];
+    }
 
     function isMobile() {
         return window.innerWidth <= 768;
@@ -31,18 +39,37 @@
 </script>
 
 <div class="sidebar" class:open>
-    <button class="sidebar-close" onclick={onClose}>✕</button>
-    {#each sections as section}
+    {#each sections as section, sectionIdx}
         <h5 class="sidebar-title">
             <a href={section.href} onclick={(e) => handleNav(e, section.href)}>{section.title}</a>
         </h5>
         <ul>
-            {#each section.items as item}
+            {#each section.items as item, itemIdx}
                 <li>
-                    {#if item.href}
-                        <a href={item.href} onclick={(e) => handleNav(e, item.href)}>{item.label}</a>
-                    {:else}
-                        {item.label}
+                    <div class="item-row">
+                        {#if item.href}
+                            <a href={item.href} onclick={(e) => handleNav(e, item.href)}>{item.label}</a>
+                        {:else}
+                            <span>{item.label}</span>
+                        {/if}
+                        {#if item.children?.length}
+                            <button class="expand-btn" onclick={() => toggleExpand(`${sectionIdx}-${itemIdx}`)}>
+                                {expanded[`${sectionIdx}-${itemIdx}`] ? '[-]' : '[+]'}
+                            </button>
+                        {/if}
+                    </div>
+                    {#if item.children?.length && expanded[`${sectionIdx}-${itemIdx}`]}
+                        <ul class="nested" transition:slide={{ duration: 200 }}>
+                            {#each item.children as child}
+                                <li>
+                                    {#if child.href}
+                                        <a href={child.href} onclick={(e) => handleNav(e, child.href)}>{child.label}</a>
+                                    {:else}
+                                        {child.label}
+                                    {/if}
+                                </li>
+                            {/each}
+                        </ul>
                     {/if}
                 </li>
             {/each}
@@ -100,8 +127,26 @@
         text-align: center;
     }
 
-    .sidebar-close {
-        display: none;
+    .item-row {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 0.25rem;
+    }
+
+    .expand-btn {
+        background: none;
+        border: none;
+        cursor: pointer;
+        font-family: inherit;
+        padding: 0 0.25rem;
+    }
+
+    .nested {
+        margin-top: 0;
+        padding-left: 0.5rem;
+        margin-left: 0.5rem;
+        border-left: 1px dashed #aaa;
     }
 
     @media (max-width: 768px) {
@@ -126,16 +171,6 @@
 
         .sidebar-spacer {
             width: 0;
-        }
-
-        .sidebar-close {
-            display: block;
-            background: none;
-            border: none;
-            font-size: 1.5rem;
-            cursor: pointer;
-            padding: 0;
-            margin-bottom: 0.5rem;
         }
     }
 </style>

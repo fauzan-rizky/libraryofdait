@@ -92,56 +92,61 @@
             <h3>Logika dan problem solving</h3>
         
         <p>
-            Logika dan problem solving sebenernya bukan cuma soal programming.
-            Setiap hari kita pasti ngadepin masalah—dari yang simpel kayak 
-            "mana jalur tercepat ke kampus" sampe yang kompleks kayak 
-            "budget bulanan abis kemana aja". Cara kita nanganin itu, 
-            bisa pake pendekatan yang sama kayak komputer.
+            Logika dan <i>problem solving</i> sebenarnya bukan hanya tentang
+            <i>programming</i>. Setiap hari kita pasti menghadapi
+            masalah—dari yang sederhana seperti "mana jalur tercepat ke kampus"
+            sampai yang kompleks seperti "pengeluaran bulanan membengkak".
+            Cara kita menangani hal tersebut bisa menggunakan pendekatan yang
+            sama seperti komputer.
         </p>
         <div class="images">
             <img src={problemsolving} alt="Problem Solving" />
             <p class="image-description">Problem Solving</p>
         </div>
         <p>
-            Cara berpikir ala komputer ini disebut <b>computational thinking</b>, 
+            Cara berpikir ala komputer ini disebut <b>computational thinking</b>,
             terdiri dari 4 langkah:
         </p>
         <p>
-            <b>Decomposition</b> — mecah masalah gede jadi bagian kecil yang 
-            lebih gampang diurus. Misalnya lo mau bikin tugas akhir, daripada 
-            mikir "gila gede banget nih tugas", lo pecah jadi: cari topik, 
-            baca referensi, nulis bab 1, bab 2, dst.
+            <b>Decomposition</b> — memecah masalah besar menjadi bagian-bagian
+            kecil yang lebih mudah diurus. Misalnya ketika mengerjakan tugas
+            akhir, daripada merasa kewalahan dengan besarnya tugas tersebut,
+            kita bisa memecahnya menjadi: cari topik, baca referensi, tulis bab
+            1, bab 2, dan seterusnya.
         </p>
         <p>
-            <b>Pattern Recognition</b> — nyari pola atau kemiripan dari masalah 
-            yang pernah kita hadapi sebelumnya. Kalo lo pernah nyelesain soal 
-            matematika tipe X, pas liat soal mirip, lo tinggal pake cara yang 
-            sama.
+            <b>Pattern Recognition</b> — mencari pola atau kemiripan dari
+            masalah yang pernah dihadapi sebelumnya. Jika pernah menyelesaikan
+            soal matematika tipe tertentu, saat melihat soal yang mirip, kita
+            tinggal menggunakan cara yang sama.
         </p>
         <p>
-            <b>Abstraction</b> — milah mana info yang penting, mana yang bisa 
-            diabaikan. Pas lo nyari kost, lo ga perlu mikirin warna tembok atau 
-            merek kulkasnya—yang penting harga, lokasi, dan fasilitas utama.
+            <b>Abstraction</b> — memilah informasi mana yang penting dan mana
+            yang bisa diabaikan. Saat mencari kost, kita tidak perlu memikirkan
+            warna tembok atau merek kulkasnya—yang terpenting adalah harga,
+            lokasi, dan fasilitas utama.
         </p>
         <p>
-            <b>Algorithm Design</b> — nyusun langkah-langkah penyelesaian secara 
-            berurutan dan logis. Kayak resep masak: ikutin step by step, dari 
-            awal sampe jadi.
+            <b>Algorithm Design</b> — menyusun langkah-langkah penyelesaian
+            secara berurutan dan logis. Seperti resep memasak: ikuti langkah
+            demi langkah, dari awal hingga selesai.
         </p>
         <p>
-            Contoh gampang: nyiapin sarapan. Kita pecah tugasnya 
-            (dekomposisi): ambil piring, ambil roti, olesin selai, seduh kopi. 
-            Kita sadar pola: tiap pagi ngelakuin hal yang sama. Kita filter 
-            info: ga perlu mikir warna piring atau merek kopi. Terakhir kita 
-            urutin langkahnya biar efisien—misalnya seduh kopi dulu biar sambil 
-            nunggu kita siapin roti. Itu computational thinking tanpa komputer 
-            sama sekali.
+            Contoh sederhana: menyiapkan sarapan. Kita pecah tugasnya
+            (dekomposisi): ambil piring, ambil roti, oleskan selai, seduh kopi.
+            Kita sadari polanya: setiap pagi melakukan hal yang sama. Kita
+            saring informasi: tidak perlu memikirkan warna piring atau merek
+            kopi. Terakhir kita urutkan langkah-langkahnya agar lebih
+            efisien—misalnya seduh kopi terlebih dahulu sambil menunggu kita
+            menyiapkan roti. Itulah <i>computational thinking</i> tanpa
+            komputer sama sekali.
         </p>
         <p>
-            Intinya, logika dan problem solving adalah fondasi dari Ilmu 
-            Komputer, tapi berguna di bidang apapun. Belajar cara ini bikin lo 
-            lebih terstruktur dalam ngambil keputusan dan nyelesain masalah, 
-            baik di coding maupun di kehidupan sehari-hari.
+            Intinya, logika dan <i>problem solving</i> adalah fondasi dari
+            Ilmu Komputer, namun berguna di bidang apapun. Mempelajari cara
+            berpikir ini membuat kita lebih terstruktur dalam mengambil
+            keputusan dan menyelesaikan masalah, baik dalam <i>coding</i>
+            maupun dalam kehidupan sehari-hari.
         </p>
         </div>
 

@@ -64,8 +64,9 @@
             beberapa diantaranya: WebDev, Cloud, DevOps, SysAdmin,
             Cybersecurity, Data Science, Machine Learning
         </p>
+        <div id="sub-2-1">
         <p>
-            1. WebDev <br />
+            <b>1. WebDev</b> <br />
             <i>Web Development</i> atau Pengembangan Web adalah bidang IT yang
             menekuni pembuatan dan perancangan website, umumnya mereka terbagi
             menjadi 3 yaitu: Frontend, Backend dan Full Stack
@@ -95,9 +96,11 @@
                 dst.)</b
             >
         </p>
+        </div>
 
+        <div id="sub-2-2">
         <p>
-            2. Cloud <br />
+            <b>2. Cloud</b> <br />
             <i>Cloud Computing</i> adalah teknologi yang memungkinkan akses ke
             sumber daya IT seperti server, penyimpanan data, dan aplikasi
             melalui internet tanpa perlu memiliki infrastruktur fisik sendiri.
@@ -129,9 +132,11 @@
                 Microsoft Azure, Docker, Kubernetes, Terraform</b
             >
         </p>
+        </div>
 
+        <div id="sub-2-3">
         <p>
-            3. DevOps <br />
+            <b>3. DevOps</b> <br />
             <i>DevOps</i> adalah kombinasi dari Development dan Operations yang
             fokus pada otomasi, kolaborasi, dan integrasi antara tim pengembang
             (developer) dan tim operasional untuk mempercepat proses deployment
@@ -164,9 +169,11 @@
                 Actions, Docker, Kubernetes, Prometheus, ELK Stack, Ansible</b
             >
         </p>
+        </div>
 
+        <div id="sub-2-4">
         <p>
-            4. SysAdmin <br />
+            <b>4. SysAdmin</b> <br />
             <i>System Administrator</i> adalah profesional IT yang bertanggung
             jawab mengelola, memelihara, dan mendukung infrastruktur IT suatu
             organisasi termasuk server, jaringan, database, dan user accounts.
@@ -197,9 +204,11 @@
                 Bacula)</b
             >
         </p>
+        </div>
 
+        <div id="sub-2-5">
         <p>
-            5. Cybersecurity <br />
+            <b>5. Cybersecurity</b> <br />
             <i>Cybersecurity</i> adalah bidang yang fokus pada perlindungan
             sistem, jaringan, dan data dari ancaman keamanan siber seperti
             hacking, malware, dan serangan cyber lainnya. Di era digital ini,
@@ -232,9 +241,11 @@
                 Wireshark, Burp Suite, OWASP, Python, SQL</b
             >
         </p>
+        </div>
 
+        <div id="sub-2-6">
         <p>
-            6. Data Science <br />
+            <b>6. Data Science</b> <br />
             <i>Data Science</i> adalah bidang yang menggunakan metode statistik,
             programming, dan machine learning untuk menganalisis data besar (big
             data) dan mengekstrak insights yang berharga untuk pengambilan
@@ -267,8 +278,9 @@
             >
         </p>
 
+        <div id="sub-2-7">
         <p>
-            7. Machine Learning <br />
+            <b>7. Machine Learning</b> <br />
             <i>Machine Learning</i> adalah cabang dari Artificial Intelligence
             yang memungkinkan komputer untuk belajar dari data dan membuat
             keputusan atau prediksi tanpa diprogram secara eksplisit untuk
@@ -301,6 +313,8 @@
             >
         </p>
         </div>
+        </div>
+    </div>
     </div>
 
 <style>

@@ -9,7 +9,15 @@ let sidebarSections = [
         href: "/belajar/pengantar-ikti/pengenalan/#materi-1",
         items: [
             { label: "Apa itu Ilmu Komputer dan Teknik Informatika", href: "/belajar/pengantar-ikti/pengenalan/#sub-1" },
-            { label: "Prospek bidang dan karir", href: "/belajar/pengantar-ikti/pengenalan/#sub-2" },
+            { label: "Prospek bidang dan karir", href: "/belajar/pengantar-ikti/pengenalan/#sub-2", children: [
+                { label: "WebDev", href: "/belajar/pengantar-ikti/pengenalan/#sub-2-1" },
+                { label: "Cloud", href: "/belajar/pengantar-ikti/pengenalan/#sub-2-2" },
+                { label: "DevOps", href: "/belajar/pengantar-ikti/pengenalan/#sub-2-3" },
+                { label: "SysAdmin", href: "/belajar/pengantar-ikti/pengenalan/#sub-2-4" },
+                { label: "Cybersecurity", href: "/belajar/pengantar-ikti/pengenalan/#sub-2-5" },
+                { label: "Data Science", href: "/belajar/pengantar-ikti/pengenalan/#sub-2-6" },
+                { label: "Machine Learning", href: "/belajar/pengantar-ikti/pengenalan/#sub-2-7" },
+            ] },
         ],
     },
     {

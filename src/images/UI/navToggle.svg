@@ -1,0 +1,14 @@
+<svg width="508" height="508" viewBox="0 0 508 508" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="navToggle">
+<rect id="Rectangle 11" x="5" y="5" width="498" height="498" fill="#00FFF7" stroke="black" stroke-width="10"/>
+<g id="navOff">
+<rect id="Rectangle 12" x="130.464" y="85.9155" width="411" height="63" rx="31.5" transform="rotate(45 130.464 85.9155)" fill="black"/>
+<rect id="Rectangle 14" x="85.9158" y="376.537" width="411" height="63" rx="31.5" transform="rotate(-45 85.9158 376.537)" fill="black"/>
+</g>
+<g id="navOn">
+<rect id="Rectangle 12_2" x="48" y="93" width="411" height="63" rx="31.5" fill="black"/>
+<rect id="Rectangle 13" x="48" y="222" width="411" height="63" rx="31.5" fill="black"/>
+<rect id="Rectangle 14_2" x="48" y="351" width="411" height="63" rx="31.5" fill="black"/>
+</g>
+</g>
+</svg>
