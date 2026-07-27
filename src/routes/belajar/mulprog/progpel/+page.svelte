@@ -287,12 +287,6 @@
     </div>
 </div>
 
-<!-- feat: halaman progpel + repository pertamamu
-
-- Halaman Program Pertama: hello world, git, github cli, repo pertama
-- Sidebar mulprog: tambah section Program Pertama + anchor baru
-- Setup: tambah Install Python + rename Installasi jadi Konfigurasi -->
-
 <style>
     * {
         font-family: "Jetbrains Mono";
