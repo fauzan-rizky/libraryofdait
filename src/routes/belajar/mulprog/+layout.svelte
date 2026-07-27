@@ -24,6 +24,9 @@
 <style>
     * {
         font-family: "Jetbrains Mono";
+    }
+
+    a, button, .sidebar-overlay {
         transition: all 0.25s linear;
     }
 

@@ -209,7 +209,7 @@
 </button>
 
 <style>
-    * {
+    a, button, #navOff, #navOn, #sideArrow {
         transition: all 0.1s linear;
     }
     #navbar-title,

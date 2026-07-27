@@ -42,8 +42,11 @@
 <style>
     * {
         font-family: "Jetbrains Mono";
-        transition: all 0.25s linear;
         /* outline: 1px solid red; */
+    }
+
+    a, .category-entry {
+        transition: all 0.25s linear;
     }
 
     #belajarMenu {

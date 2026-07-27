@@ -81,8 +81,11 @@
 
 <style>
     * {
-        transition: all 0.25s ease;
         text-decoration: none;
+    }
+
+    li, .expand-btn {
+        transition: all 0.25s ease;
     }
     h5 {
         background-color: rgb(226, 226, 226);

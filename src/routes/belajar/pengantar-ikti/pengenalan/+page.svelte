@@ -320,7 +320,10 @@
 <style>
     * {
         font-family: "Jetbrains Mono";
-        transition: all 0.25s linear;
         /* outline: 1px solid red; */
+    }
+
+    a {
+        transition: all 0.25s linear;
     }
 </style>

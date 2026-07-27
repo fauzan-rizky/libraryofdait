@@ -220,6 +220,9 @@
 <style>
     * {
         font-family: "Jetbrains Mono";
+    }
+
+    a, code {
         transition: all 0.25s linear;
     }
 

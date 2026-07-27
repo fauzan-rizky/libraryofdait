@@ -296,6 +296,9 @@
 <style>
     * {
         font-family: "Jetbrains Mono";
+    }
+
+    a {
         transition: all 0.25s linear;
     }
 </style>
