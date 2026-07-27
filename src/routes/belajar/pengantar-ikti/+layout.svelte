@@ -2,6 +2,8 @@
     import Navbar from "../../../components/navbar.svelte";
     import SidebarIkti from "./sidebar-ikti.svelte";
     import "../../../styles/materials.css";
+    import { fade } from "svelte/transition";
+    import { page } from "$app/stores";
 
     let { children } = $props();
     let sidebarOpen = $state(false);
@@ -14,7 +16,11 @@
 />
 <div class="material-entry">
     <SidebarIkti open={sidebarOpen} onClose={() => sidebarOpen = false} />
-    {@render children()}
+    {#key $page.url.pathname}
+        <div in:fade={{ duration: 150 }}>
+            {@render children()}
+        </div>
+    {/key}
 </div>
 
 {#if sidebarOpen}
