@@ -76,13 +76,13 @@
     }
     #title {
         color: #fe0ab9;
-        text-shadow: 0px 0px 20px #00fff7;
+        text-shadow: 0px 0px 10px #00fff7;
     }
 
     #subtitle,
     #subtitle-mobile, span {
         color: #00fff7;
-        text-shadow: 0px 0px 20px #fe0ab9;
+        text-shadow: 0px 0px 10px #fe0ab9;
     }
 
     #subtitle-mobile {
@@ -95,7 +95,7 @@
     }
 
     #home {
-        background: url("../images/cpbg.jpg");
+        background: url("../images/cpbg.webp");
         background-size: cover;
         align-items: center;
         justify-content: center;

@@ -27,7 +27,7 @@ let sidebarSections = [
             { label: "Sejarah komputer", href: "/belajar/pengantar-ikti/komputer/#sub-1" },
             { label: "Cara kerja komputer", href: "/belajar/pengantar-ikti/komputer/#sub-2" },
             { label: "Logika dan problem solving", href: "/belajar/pengantar-ikti/komputer/#sub-3" },
-            { label: "Digital ethics", href: "/belajar/pengantar-ikti/komputer/#sub-4" },
+            { label: "Etika Digital", href: "/belajar/pengantar-ikti/komputer/#sub-4" },
         ],
     },
 ];

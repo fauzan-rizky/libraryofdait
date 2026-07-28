@@ -1,11 +1,13 @@
 <script>
-    import vscodenf from "../../../../images/learning/mulprog/vscodenf.png";
-    import vscodecp from "../../../../images/learning/mulprog/newfilecp.png";
-    import openfolder from "../../../../images/learning/mulprog/openfolder.png";
-    import openterm from "../../../../images/learning/mulprog/openterminal.png";
-    import executepython from "../../../../images/learning/mulprog/executepython.png";
-    import ghauthlogin from "../../../../images/learning/mulprog/ghauthlogin.png";
-    import ghauthsuccess from "../../../../images/learning/mulprog/ghauthsuccess.png";
+    import vscodenf from "../../../../images/learning/mulprog/vscodenf.webp";
+    import vscodecp from "../../../../images/learning/mulprog/newfilecp.webp";
+    import openfolder from "../../../../images/learning/mulprog/openfolder.webp";
+    import openterm from "../../../../images/learning/mulprog/openterminal.webp";
+    import executepython from "../../../../images/learning/mulprog/executepython.webp";
+    import ghauthlogin from "../../../../images/learning/mulprog/ghauthlogin.webp";
+    import ghauthsuccess from "../../../../images/learning/mulprog/ghauthsuccess.webp";
+    import helloworldillust from "../../../../images/learning/mulprog/helloworldillust.webp";
+    import direktorcapek from "../../../../images/learning/mulprog/direktorcapek.webp";
 </script>
 
 <div class="material">
@@ -14,6 +16,10 @@
     </div>
     <div id="sub-1">
         <h3>Hello, world!</h3>
+        <div class="images">
+            <img src={helloworldillust} alt="Hello World Illustration" />
+            <p class="image-description">Hello, world (IYKYK)</p>
+        </div>
         <p>
             <code>Hello, world!</code> adalah sebuah kata yang sering terdengar
             dikalangan komunitas IT atau di dunia komputer
@@ -285,6 +291,34 @@
             branch, log, diff, switch. Dan lain sebagainya, tapi akan dibahas di kursus terpisah khusus Git dan Github
         </p>
     </div>
+    <div id="sub-4">
+        <h3>Langkah Selanjutnya</h3>
+        <p>
+            Selamat! kalian sudah menjadi seseorang yang udah ga <b>larping</b> lagi di dunia IT,
+            dan setidaknya udah tau dikit gambaran dari industri ini
+        </p>
+        <p>
+            Setelah dari tutorial singkat ini, makasih banyak udah mau baca sejauh ini dan belum bosan"
+            karena jujur ini modelannya mirip dokumentasi banget, atau kaku banget.
+        </p>
+        <p>
+            Setelah ini kalian bisa ikutin tutorial Git dan VSCode lanjut, atau mau langsung ke Python juga gapapa
+            tapi masih WIP(Work In Progress) ya guys, bakal aku update kurang lebih 1x seminggu dengan 1-2 kursus/tutorial baru
+        </p>
+        <p>
+            Feel free buat belajar diluar web ini karna udah tau basicnya, atau mau tetep di web ini nunggu juga
+            gapapa
+        </p>
+        <p>
+            <i><b>"Terminal kubuka, AI ku pecut.</b></i>
+            <br>
+            <i><b>token token token mania~" -orang bijak</b></i>
+        </p>
+        <div class="images">
+            <img id="direktorcapek" src={direktorcapek} alt="Ojan" />
+            <p class="image-description">potret contributor yang capek tapi tetep semangat memaintain projectnya</p>
+        </div>
+    </div>
 </div>
 
 <style>
@@ -294,5 +328,8 @@
 
     a {
         transition: all 0.25s linear;
+    }
+    #direktorcapek {
+        max-width: 200px;
     }
 </style>

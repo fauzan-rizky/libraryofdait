@@ -1,9 +1,19 @@
+<script>
+    import codinganime from "../../../../images/learning/mulprog/codinganime.webp";
+    import bahasapemrograman from "../../../../images/learning/mulprog/bahasapemrograman.webp";
+    import githubillust from "../../../../images/learning/mulprog/githubillust.webp";
+</script>
+
 <div class="material">
     <div id="materi-1">
         <h3 class="materi-title">Dasar Pemrograman</h3>
     </div>
     <div id="sub-1">
         <h3>Pemrograman dan <i>coding</i></h3>
+        <div class="images">
+            <img src={codinganime} alt="Coding Anime Illustration" />
+            <p class="image-description">If programming was an anime</p>
+        </div>
         <p>
             Kita sering mendengar kata "pemrograman" dan "<i>coding</i>", tapi
             apasih artinya dan juga beda dari keduanya?
@@ -20,6 +30,10 @@
     </div>
     <div id="sub-2">
         <h3>Bahasa pemrograman</h3>
+        <div class="images">
+            <img src={bahasapemrograman} alt="Bahasa Pemrograman Illustration" />
+            <p class="image-description">Berbagai bahasa pemrograman</p>
+        </div>
         <p>
             Sekarang terdapat banyak sekali bahasa pemrograman dimulai dari yang
             mudah dimengerti dan diperuntukan untuk penggunaan lengkap hingga
@@ -115,11 +129,11 @@
         <div id="sub-3-3">
         <p><b>3. Compiler dan Interpreter</b></p>
         <p>
-            <i><b>Compiler</b></i> merupakan cara menjalankan program atau
+            <i><b>Compiler</b></i> merupakan program untuk menjalankan
             kodingan dengan mengubah seluruh isi file atau program tersebut
             menjadi sebuah instruksi langsung kepada komputer atau binary.
-            Sedangkan <i><b>Interpreter</b></i> adalah cara menjalankan program
-            atau kodingan dengan menafsirkan baris per baris di file menjadi
+            Sedangkan <i><b>Interpreter</b></i> adalah program untuk menjalankan
+            kodingan dengan menafsirkan baris per baris di file menjadi
             bahasa mesin tanpa membuat file berisi instruksi komputer atau
             binary
             <br />
@@ -165,14 +179,66 @@
             fungsi lain seperti debugger, build tools, database, deployment dan lain
             lain. Sama seperti kalau ingin membuat project besar dan project profesional
             atau kerja.
+            <br>
             <b>Code Editor: VSCode(dasar), Sublime Text, Notepad++, Neovim</b>
             <br />
             <b>IDE: VScode(dengan ekstensi), JetBrains: IntelliJ, PyCharm, CLion, WebStorm</b>
         </p>
         </div>
+        <div id="sub-3-6">
+        <p><b>6. Algoritma</b></p>
+        <p>
+            Algoritma adalah langkah-langkah logis dan sistematis untuk
+            menyelesaikan suatu masalah. Sederhananya, algoritma itu seperti
+            resep masakan — ada urutan langkah yang harus diikuti dari awal
+            hingga akhir untuk menghasilkan output yang diinginkan.
+        </p>
+        <p>
+            Dalam pemrograman, sebelum kita menulis kode, kita perlu menyusun
+            algoritmanya terlebih dahulu. Misal kita ingin membuat program
+            kalkulator sederhana: (1) minta angka pertama, (2) minta operator,
+            (3) minta angka kedua, (4) hitung sesuai operator, (5) tampilkan
+            hasil. Urutan ini adalah algoritma.
+        </p>
+        <p>
+            Algoritma tidak harus ditulis dalam bahasa pemrograman — bisa dalam
+            bahasa sehari-hari ataupun <i>flowchart</i> (diagram alur). Yang
+            penting adalah logika dan urutannya benar. Semakin baik algoritma
+            kita, semakin efisien program yang dihasilkan.
+        </p>
+        </div>
     </div>
     <div id="sub-4">
+        <h3>Vibe Coding</h3>
+        <p>
+            <b>Vibe Coding</b> adalah istilah baru yang muncul di tahun 2024-2025
+            yang menggambarkan cara nulis kode dengan bantuan <b>AI</b>
+            (seperti ChatGPT, Claude, atau GitHub Copilot). Alih-alih mengetik
+            setiap baris kode manual, programmer cukup menjelaskan apa yang
+            ingin dibuat — dalam bahasa sehari-hari — dan AI akan menuliskan
+            kodenya. Programmer tinggal meninjau, menguji, dan menyesuaikan.
+        </p>
+        <p>
+            Istilah ini dipopulerkan oleh <b>Andrej Karpathy</b>, mantan ilmuwan
+            AI di Tesla dan OpenAI. Ia menggambarkan vibe coding sebagai
+            "sepenuhnya larut dalam vibe, mengikuti vibes-nya, dan lupa bahwa
+            kode itu ada" — intinya, kita lebih fokus ke apa yang ingin dibuat
+            daripada bagaimana cara menulisnya baris per baris.
+        </p>
+        <p>
+            Namun perlu diingat: AI adalah alat bantu, bukan pengganti.
+            Memahami dasar-dasar pemrograman tetap penting agar kita bisa
+            mengecek apakah kode yang dihasilkan AI sudah benar atau tidak.
+            <b>Vibe coding</b> mempercepat proses, tapi fondasi tetap harus
+            kuat.
+        </p>
+    </div>
+    <div id="sub-5">
         <h3>GitHub</h3>
+        <div class="images">
+            <img src={githubillust} alt="GitHub Illustration" />
+            <p class="image-description">Logo Github</p>
+        </div>
         <p>
             <b>GitHub</b> adalah platform untuk menyimpan kode program di
             <i>cloud</i> (internet). Bayangkan seperti Google Docs, namun

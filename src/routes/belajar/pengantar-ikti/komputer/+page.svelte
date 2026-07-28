@@ -3,7 +3,7 @@
     import alanturing from "../../../../images/learning/pengantar-ikti/alanturing.webp";
     import computerflowchart from "../../../../images/learning/pengantar-ikti/computerflowchart.webp";
     import problemsolving from "../../../../images/learning/pengantar-ikti/problemsolving.webp";
-    import etikadigital from "../../../../images/learning/pengantar-ikti/etikadigital.jpeg";
+    import etikadigital from "../../../../images/learning/pengantar-ikti/etikadigital.webp";
 </script>
 
     <div class="material">
@@ -151,9 +151,9 @@
         </div>
 
         <div id="sub-4">
-            <h3>Digital ethics</h3>
+            <h3>Etika Digital</h3>
         <div class="images">
-            <img src={etikadigital} alt="Digital Ethics" />
+            <img src={etikadigital} alt="Etika Digital" />
             <p class="image-description">Etika Digital</p>
         </div>
         <p>

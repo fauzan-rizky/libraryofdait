@@ -1,7 +1,7 @@
 <script>
-    import scoophelp from "../../../../images/learning/mulprog/scoophelp.png";
-    import vscodeme from "../../../../images/learning/mulprog/VSCodeMe.png";
-    import codespaceswelcome from "../../../../images/learning/mulprog/codespaces-welcome.png";
+    import scoophelp from "../../../../images/learning/mulprog/scoophelp.webp";
+    import vscodeme from "../../../../images/learning/mulprog/VSCodeMe.webp";
+    import codespaceswelcome from "../../../../images/learning/mulprog/codespaces-welcome.webp";
 </script>
 
 <div class="material">

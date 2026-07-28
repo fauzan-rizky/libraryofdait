@@ -15,8 +15,10 @@ let sidebarSections = [
                 { label: "High-level dan Low-level", href: "/belajar/mulprog/ddp/#sub-3-2" },
                 { label: "Compiler dan Interpreter", href: "/belajar/mulprog/ddp/#sub-3-3" },
                 { label: "Bug dan Debugging", href: "/belajar/mulprog/ddp/#sub-3-4" },
-                { label: "IDE dan Code Editor", href: "/belajar/mulprog/ddp/#sub-3-5" }] },
-            { label: "GitHub", href: "/belajar/mulprog/ddp/#sub-4" },
+                { label: "IDE dan Code Editor", href: "/belajar/mulprog/ddp/#sub-3-5" },
+                { label: "Algoritma", href: "/belajar/mulprog/ddp/#sub-3-6" }] },
+            { label: "Vibe Coding", href: "/belajar/mulprog/ddp/#sub-4" },
+            { label: "GitHub", href: "/belajar/mulprog/ddp/#sub-5" },
         ],
     },
     {
@@ -42,6 +44,7 @@ let sidebarSections = [
                 { label: "Github CLI", href: "/belajar/mulprog/progpel/#sub-2-1" },
             ] },
             { label: "Repository Pertamamu", href: "/belajar/mulprog/progpel/#sub-3" },
+            { label: "Langkah Selanjutnya", href: "/belajar/mulprog/progpel/#sub-4" },
         ],
     },
 ];
