@@ -232,6 +232,7 @@
     }
 
     h2 {
+        font-size: clamp(1.2rem, 3.2vw, 2.2rem);
         font-weight: 600;
     }
 
