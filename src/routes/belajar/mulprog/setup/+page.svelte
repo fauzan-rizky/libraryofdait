@@ -219,7 +219,7 @@
 
 <style>
     * {
-        font-family: "Jetbrains Mono";
+        font-family: "Rajdhani";
     }
 
     a, code {

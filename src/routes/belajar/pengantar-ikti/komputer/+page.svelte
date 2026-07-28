@@ -195,7 +195,7 @@
 
 <style>
     * {
-        font-family: "Jetbrains Mono";
+        font-family: "Rajdhani";
         /* outline: 1px solid red; */
     }
 

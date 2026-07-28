@@ -109,6 +109,7 @@
     a {
         color: inherit;
         text-decoration: none;
+        font-weight: 600;
     }
 
     .sidebar {

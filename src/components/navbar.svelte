@@ -215,8 +215,9 @@
     #navbar-title,
     #navbar-mobile-title {
         color: #00fff7;
-        text-shadow: 3px -3px 0 #fe0ab9;
-        font-weight: 100;
+        text-shadow: 2px -2px 0 #fe0ab9;
+        
+        font-weight: 700;
     }
 
     a {
@@ -224,14 +225,14 @@
         margin-left: 1%;
         text-decoration: none;
 
-        font-family: "Jersey 25", sans-serif;
+        font-family: "Rajdhani";
         font-style: normal;
 
         padding: 0;
     }
 
     h2 {
-        font-weight: 100;
+        font-weight: 600;
     }
 
     #logo-link {
@@ -327,7 +328,8 @@
     }
 
     .nav-menu-link {
-        font-family: "Jersey 25", sans-serif;
+        font-family: "Rajdhani";
+        font-weight: 700;
         font-size: 3rem;
         text-decoration: none;
         color: black;

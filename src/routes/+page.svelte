@@ -70,8 +70,8 @@
     h2,
     span {
         background-color: rgba(0, 0, 0, 0);
-        font-family: "Jersey 25", sans-serif;
-        font-weight: 500;
+        font-family: "Rajdhani";
+        font-weight: 700;
         font-style: normal;
     }
     #title {

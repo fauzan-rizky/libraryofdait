@@ -22,11 +22,11 @@
             Information and Technology
         </h1>
     </div>
-    <p>
+    <h5>
         DAIT adalah sebuah asosiasi non-formal dan non-profit yang bertujuan untuk menghubungkan pelajar-pelajar terutama mahasiwa
         dari jurusan Teknik Informatika, Ilmu Komputer atau sejenisnya untuk saling berkolaborasi dan berbagi pengalaman serta ilmu.
         Saat ini DAIT berfokus pada pengembangan project open source seperti ini dan juga kompetisi seperti hackathon dan lain sebagainya.
-    </p>
+    </h5>
     <p></p>
 </div>
 
@@ -37,10 +37,11 @@
         font-style: normal;
     }
 
-    p {
+    h5 {
         padding-top: 15px;
         background-color: rgba(0, 0, 0, 0);
-        font-family: "Jetbrains Mono";
+        font-family: "Rajdhani";
+        font-weight: 600;
         text-align: justify;
         width: 75%;
     }

@@ -8,8 +8,11 @@
         <h3>PERKENALAN DAN SETUP</h3>
         <div class="category-slider">
             <a class="entry-link" href="/belajar/pengantar-ikti/pengenalan">
+            
                 <div class="category-entry">
+                <p class="class-type teori">Teori</p>
                     <div class="class-upper">
+                        
                         <h6 class="class-title">Pengantar IK/TI</h6>
                         <p class="class-description">
                             dasar dasar Ilmu Komputer (dan/atau) Teknik Informatika
@@ -23,6 +26,7 @@
             </a>
             <a class="entry-link" href="/belajar/mulprog/ddp">
                 <div class="category-entry">
+                <p class="class-type tutorial">Tutorial</p>
                     <div class="class-upper">
                         <h6 class="class-title">Dasar pemrograman dan setup</h6>
                         <p class="class-description">
@@ -41,8 +45,9 @@
 
 <style>
     * {
-        font-family: "Jetbrains Mono";
+        font-family: "Rajdhani";
         /* outline: 1px solid red; */
+        font-weight: 600;
     }
 
     a, .category-entry {
@@ -135,19 +140,36 @@
     .class-difficulty {
         padding: 0% 5% 0% 5%;
         border-top: 1px solid black;
-        border-bottom: 1px solid black;
         margin-bottom: 0;
+        border-radius: 0 0 5px 5px;
+        color: rgb(0, 0, 0);
     }
 
     .pemula {
         background-color: rgb(16, 192, 16);
     }
 
+    .class-type {
+        margin-bottom: 0;
+        background-color: beige;
+        padding: 0% 5% 0% 5%;
+        border-radius: 5px 5px 0px 0px;
+        border-bottom: 1px solid black;
+    }
+
+    .teori {
+        background-color: #dbeafe;
+    }
+
+    .tutorial {
+        background-color: #fef3c7;
+    }
+
     .class-title {
-        font-size: clamp(1.05rem, 2.8vw, 1.3rem);
+        font-size: clamp(1.2rem, 3vw, 1.5rem);
     }
 
     .class-description {
-    font-size: clamp(0.75rem, 2vw, 0.9rem);
+    font-size: clamp(0.85rem, 2.2vw, 1rem);
 }
 </style>

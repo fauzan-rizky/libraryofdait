@@ -67,10 +67,11 @@ h6 {
    ======================================== */
 
 p {
-  font-size: clamp(1rem, 2vw, 1.125rem);
-  /* 16px - 18px */
+  font-size: clamp(1.1rem, 2.2vw, 1.2375rem);
+  /* 17.6px - 19.8px */
   line-height: 1.6;
   margin-bottom: 1.5rem;
+  font-weight: 500;
 }
 
 /* Lead paragraph (intro text) */
@@ -142,12 +143,14 @@ em,
 
 code,
 .code {
-  font-size: clamp(0.8125rem, 1.5vw, 0.9375rem);
-  /* 13px - 15px */
+  font-size: clamp(0.89375rem, 1.65vw, 1.03125rem);
+  /* 14.3px - 16.5px */
   font-family: 'Courier New', 'Monaco', monospace;
-  background-color: rgba(0, 0, 0, 0.05);
+  background-color: rgba(0, 0, 0, 0.11);
   padding: 0.125em 0.25em;
   border-radius: 0.25em;
+
+  font-weight: 600;
 }
 
 pre {
