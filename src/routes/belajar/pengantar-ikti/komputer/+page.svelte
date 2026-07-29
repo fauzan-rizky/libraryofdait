@@ -167,21 +167,21 @@
             Yang udah keupload, susah banget ditarik balik.
         </p>
         <p>
-            <b>Digital footprint.</b> Setiap klik, like, komentar, dan search 
-            lo meninggalkan jejak digital. Perusahaan kayak Google dan Facebook 
+            <b>Digital footprint.</b>             Setiap klik, like, komentar, dan search 
+            yang kita lakukan meninggalkan jejak digital. Perusahaan kayak Google dan Facebook 
             pake itu buat nargetin iklan, tapi bisa juga dipake orang jahat 
-            kalo lo ga hati-hati.
+            kalo kita ga hati-hati.
         </p>
         <p>
-            <b>Plagiarisme dan hak cipta.</b> Internet tuh gudangnya informasi, 
-            tapi bukan berarti lo bisa copy-paste seenaknya. Kalo mau pake karya 
-            orang, cantumin sumber. Kalo lo bikin karya sendiri, lo juga berhak 
+            <b>Plagiarisme dan hak cipta.</b>             Internet tuh gudangnya informasi, 
+            tapi bukan berarti kita bisa copy-paste seenaknya. Kalo mau pake karya 
+            orang, cantumin sumber. Kalo kita bikin karya sendiri, kita juga berhak 
             dilindungi hak ciptanya.
         </p>
         <p>
-            <b>Etika online dan cyberbullying.</b> Di balik layar, lo ngobrol 
+            <b>Etika online dan cyberbullying.</b> Di balik layar, kita ngobrol 
             sama manusia beneran. Jangan ngatain, ngebully, atau nyebarin hoax. 
-            Screen lo mungkin melindungi identitas lo, tapi dampak ke orang 
+            Screen kita mungkin melindungi identitas kita, tapi dampak ke orang 
             lain itu nyata.
         </p>
         <p>
