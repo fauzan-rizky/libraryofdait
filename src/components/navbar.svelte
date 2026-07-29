@@ -103,8 +103,10 @@
     <a href="/" id="logo-link">
         <h2 id="navbar-title">Library of DAIT</h2>
     </a>
-    <a class="links" href="/belajar"><h2>Belajar</h2></a>
-    <a class="links" href="/tentang"><h2>Tentang</h2></a>
+    <div class="nav-right">
+        <a class="links" href="/belajar"><h2>Belajar</h2></a>
+        <a class="links" href="/tentang"><h2>Tentang</h2></a>
+    </div>
 </div>
 <div class="navbar-spacer"></div>
 
@@ -245,14 +247,23 @@
     #navbar {
         background-color: white;
         display: flex;
+        justify-content: space-between;
         align-items: center;
         border-bottom: 1px solid black;
 
-        padding: 5px 0 0 5px;
+        padding: 5px 15px 5px 15px;
         position: fixed;
         width: 100vw;
-        height: 6vh;
+        height: 6.5vh;
+        min-height: calc(0.065*1080px);
         z-index: 10;
+        box-sizing: border-box;
+    }
+
+    .nav-right {
+        display: flex;
+        align-items: center;
+        gap: 1rem;
     }
 
     #navToggle {
@@ -268,6 +279,15 @@
     #navOn,
     #sideArrow {
         transform-origin: center;
+    }
+
+    .links {
+        padding: 0px 5px 0px 5px;
+    }
+
+    .links:hover {
+        color: #00fff7;
+        background-color: #fe0ab9;
     }
 
     .navbar-spacer {
@@ -342,7 +362,6 @@
 
     @media (max-width: 768px) {
         #navbar {
-            justify-content: space-between;
             padding: 5px 8px 0;
         }
 

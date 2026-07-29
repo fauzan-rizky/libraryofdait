@@ -90,7 +90,7 @@
         border-radius: 5px;
 
         width: clamp(200px, 15vw, 400px);
-        height: clamp(200px, 15vw, 400px);
+        height: clamp(210px, 15vw, 400px);
         display: flex;
         flex-direction: column;
         justify-content: space-between;
@@ -171,5 +171,6 @@
 
     .class-description {
     font-size: clamp(0.85rem, 2.2vw, 1rem);
+    margin-bottom: 0;
 }
 </style>

@@ -1,42 +1,30 @@
-# sv
+# Library of DAIT
 
-Everything you need to build a Svelte project, powered by [`sv`](https://github.com/sveltejs/cli).
+Open-source learning platform for **DAIT** (Depok Association of Information & Technology). Menyediakan materi belajar seputar programming, ilmu komputer, dan teknologi informasi — gratis dan bisa diakses siapa aja.
 
-## Creating a project
+## Fitur
 
-If you're seeing this, you've probably already done this step. Congrats!
+- **Learning modules** — Materi terstruktur dari dasar (Mulai Programming, Pengantar IK/TI)
+- **Interactive UI** — Typing animation, responsive sidebar navigation
+- **Mobile responsiveness** — Masih dikerjakan, dengan neon accent (`#00fff7`, `#fe0ab9`)
+- **Aksesibel** — Bisa dibaca di device mana aja tanpa login
 
-```sh
-# create a new project
-npx sv create my-app
-```
+## Tech Stack
 
-To recreate this project with the same configuration:
+- [Svelte 5](https://svelte.dev/) (Runes mode)
+- [SvelteKit](https://kit.svelte.dev/)
+- [Vite](https://vitejs.dev/)
+- Pure CSS (no framework)
+- [Vercel](https://vercel.com/) (deployment)
 
-```sh
-# recreate this project
-bun x sv@0.16.3 create --template minimal --no-types --add sveltekit-adapter="adapter:auto" --install bun .
-```
+## Contributing
 
-## Developing
+Baca [CONTRIBUTING.md](CONTRIBUTING.md) untuk panduan cara berkontribusi, apa yang boleh dan nggak boleh dilakukan.
 
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
+## Future Plans
 
-```sh
-npm run dev
+Lihat [FUTURE.md](FUTURE.md) untuk rencana fitur dan materi yang akan datang.
 
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
-```
+## About DAIT
 
-## Building
-
-To create a production version of your app:
-
-```sh
-npm run build
-```
-
-You can preview the production build with `npm run preview`.
-
-> To deploy your app, you may need to install an [adapter](https://svelte.dev/docs/kit/adapters) for your target environment.
+**Depok Association of Information & Technology** — Komunitas informasi dan teknologi di Kota Depok. Pelajari lebih lanjut di [Tentang halaman](https://libraryofdait.vercel.app/tentang).

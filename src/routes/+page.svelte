@@ -52,16 +52,24 @@
 
 <Navbar />
 <div class="full-screen-container" id="home">
-    <h1 id="title">Library of DAIT</h1>
-    <h2 id="subtitle">
+    <h1 class="top-element" id="title">Library of DAIT</h1>
+    <h2 class="top-element" id="subtitle">
         tempat belajar <span class="typing">{displayText}</span> berbahasa
         Indonesia
     </h2>
-    <div id="subtitle-mobile">
+    <div class="top-element" id="subtitle-mobile">
         <h2 class="subtitle-mobile-text">
             tempat belajar <span class="typing">{displayText}</span> 
         </h2>
         <h2 class="subtitle-mobile-text">berbahasa indonesia</h2>
+    </div>
+    <div class="start-wrapper top-element">
+        <div id="start">
+            <a href="/belajar" aria-label="belajar">
+            <h3>
+                MULAI
+            </h3></a>
+        </div>
     </div>
 </div>
 
@@ -74,19 +82,77 @@
         font-weight: 700;
         font-style: normal;
     }
+    a {
+        text-decoration: none;
+    }
     #title {
         color: #fe0ab9;
-        text-shadow: 0px 0px 10px #00fff7;
+        text-shadow: 0px 0px 15px #00fff7;
     }
 
     #subtitle,
     #subtitle-mobile, span {
         color: #00fff7;
-        text-shadow: 0px 0px 10px #fe0ab9;
+        text-shadow: 0px 0px 15px #fe0ab9;
     }
 
     #subtitle-mobile {
         display: none;
+    }
+
+    @property --angle {
+        syntax: "<angle>";
+        initial-value: 360deg;
+        inherits: false;
+    }
+
+    .start-wrapper::before,.start-wrapper::after {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        transform: translateX(-5px) translateY(-5px);
+        width: calc(100% + 10px);
+        height: calc(100% + 10px);
+        background: linear-gradient(var(--angle),rgba(0, 255, 247, 1) 0%, rgba(254, 10, 185, 1) 100%);
+        z-index: 0;
+
+        animation: start-anim 1s steps(360) infinite;
+    }
+
+    .start-wrapper::before {
+        filter: blur(1.5rem);
+    }
+
+    @keyframes start-anim {
+        from {
+            --angle: 360deg;
+        }
+
+        to {
+            --angle: 0deg;
+        }
+    }
+
+    .start-wrapper {
+        position: relative;
+        transform: translateY(35px);
+    }
+
+    #start {
+        color: #00fff7;
+        background-color: black;
+
+        text-decoration: none;
+
+        padding: 2px 10px 2px 10px;
+        position: relative;
+        border: 2.5px solid black;
+        z-index: 1;
+    }
+    
+    #start a h3 {
+        font-weight: 800;
     }
 
     span {
@@ -94,11 +160,29 @@
         animation: blink 1.5s linear infinite;
     }
 
-    #home {
+    #home::before {
+        content: "";
         background: url("../images/cpbg.webp");
         background-size: cover;
         align-items: center;
         justify-content: center;
+        filter: brightness(65%);
+        width: 100%;
+        height: 94%;
+        position: absolute;
+        z-index: 0;
+    }
+
+    #home {
+        height: 94vh;
+        align-items: center;
+        justify-content: center;
+        
+    }
+
+    .top-element {
+                z-index: 1;
+
     }
 
     @keyframes blink {
